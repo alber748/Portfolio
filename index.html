@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <title>Portafolio - Jesus Alberto Funes</title>
+
+</head>
+
+  <body id="app">
+
+    <header class="nav-bar">
+      <div class="empuje"></div>
+      <nav class="nav-section">
+        <a href="#home" class="option-nav option-active" id="nav-home" id-target="0">Home</a>
+        <a href="#skills" class="option-nav" id="nav-proyec" id-target="1">Skills</a>
+        <!-- <a href="#proyects-tittle" class="option-nav" id="nav-habi" id-target="2">Proyectos</a> -->
+        <a href="#contact" class="option-nav" id="nav-contact" id-target="2">Contacto</a>
+      </nav>
+      <nav class="nav-info">
+        <a href="https://twitter.com/Alber_Funes10" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/alberto-funes-garc%C3%ADa-649200243/" target="_blank"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/alber748" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </nav>
+    </header>
+
+    <section class="section slider slider-active" id="home" id-target="0">
+      <div class="arrow arrow-left" id="btn-left"><i class="arrow-left fa-solid fa-angle-left" id="btnIzquierdo"></i>
+      </div>
+
+      <div class="slider-element sld-active" id="info-habi-slider" data-id="1">
+        <h1 class="titulo-slider">Jesus Alberto Funes Garcia</h1>
+        <span class="subtitulo-slider">Front-End Developer</span>
+        <a href="#contact" class="btn btn-slider" id="btn-habilidades">Contactame</a>
+      </div>
+
+      <div class="slider-element" id="info-proyectos-slider" data-id="2">
+        <h1 class="titulo-slider">¿Quieres saber cómo trabajo?</h1>
+        <span class="subtitulo-slider">Explora mis repositorios</span>
+        <a href="https://github.com/alber748?tab=repositories" target="_blank" class="btn btn-slider">Ir a Git Hub</a>
+      </div>
+
+      <div class="slider-element" id="info-about-slider" data-id="3">
+        <h1 class="titulo-slider">Conoce mis habilidades</h1>
+        <span class="subtitulo-slider">Explora las tecnologías que domino</span>
+        <a href="#skills" class="btn btn-slider">Conócemos</a>
+      </div>
+
+      <div class="arrow" id="btn-rigth"><i class="fa-solid fa-angle-right" id="btnDerecho"></i></div>
+    </section>
+
+    <div id="fondo"></div>
+
+    <section id="skills" id-target="1" attr-class="true">
+      <h1 class="">Skills</h1>
+      <div class="row-skills">
+        <div class="col-skills gallery-skilss">
+          <img src="public/assets/icon-skills/angular-icon-1.svg" alt="" id="angular">
+          <img src="public/assets/icon-skills/bootstrap-4.svg" alt="" id="bootstrap">
+          <img src="public/assets/icon-skills/css-3.svg" alt="" id="css">
+          <img src="public/assets/icon-skills/html-1.svg" alt="" id="html">
+          <img src="public/assets/icon-skills/logo-javascript.svg" alt="" id="jsvc">
+          <div class="text-skills"><span>Front-End Development Tools...<p>&#160;</p></span></div>
+          <img src="public/assets/icon-skills/nodejs-icon.svg" alt="" id="node">
+          <img src="public/assets/icon-skills/react-2.svg" alt="" id="react">
+          <img src="public/assets/icon-skills/sass-1.svg" alt="" id="sass">
+          <img src="public/assets/icon-skills/vitejs.svg" alt="" id="vite">
+          <img src="public/assets/icon-skills/webpack-icon.svg" alt="" id="webpack">
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- <section id="proyects" id-target="2" attr-class="true">
+      <h1 class="title-proyects" id="proyects-tittle"> Proyectos </h1>
+      <div class="gallery-proyects">
+        <div class="tarjet-proyect"></div>
+        <div class="tarjet-proyect"></div>
+        <div class="tarjet-proyect"></div>
+        <div class="tarjet-proyect"></div>
+        <div class="tarjet-proyect"></div>
+        <div class="tarjet-proyect"></div>
+        <div class="tarjet-proyect"></div>
+        <div class="tarjet-proyect"></div>
+      </div>
+    </section> -->
+    <section id-target="3" id="contact" attr-class="true">
+      <!-- <h1 class="title-contact">Contacto</h1> -->
+      <div class="row-contacts">
+        <div class="col"><a class="link-contact btn-whats-app" href=" https://wa.me/75302024" target="_blank"><i
+              class="fa-brands fa-whatsapp"></i> Chatea Con Migo</a></div>
+        <div class="col col-links">
+          <a class="link-contact link-circle" href="https://www.youtube.com/channel/UCUhHbYs4Mgu7tRqtLoyXvMg"
+            target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a class="link-contact link-circle" href="https://www.instagram.com/alber_garcia21/" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a class="link-contact link-circle" href="mailto:ag748876@gmail.com" target="_blank"><i
+              class="fa-regular fa-envelope"></i></a>
+          <a class="link-contact link-circle" href="https://www.facebook.com/alberto.Funes10.Betho" target="_blank"><i
+              class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="line-foot"></div>
+        <div class="end-text">
+          <span>Esta Web fue desarrollada con Html, Css y JavaScript Vanilla sin ninguna libreria o framework </span>
+        </div>
+      </div>
+    </section>
+
+
+    <script type="module" src="/main.js"></script>
+
+  </body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script>
+
+  $(document).ready(function () {
+
+    $('a[href^="#"]').click(function () {
+
+      let destino = $(this.hash);
+
+      if (destino.length === 0) {
+        destino = $('a[name="' + this.hash.substr(1) + '"]');
+      }
+      if (destino.length === 0) {
+        destino = $('html');
+      }
+      $('html, body').animate({ scrollTop: destino.offset().top }, 600);
+      return false;
+    });
+
+  });
+
+</script>
