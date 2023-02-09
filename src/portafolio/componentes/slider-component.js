@@ -12,11 +12,11 @@ export const SliderComponent = () => {
 
     arrows.forEach( arrow => {
         arrow.addEventListener( 'click', ( event ) => {
-            controlBehaviorOfSlider( sliderElements, event.target )
-        } )
+            controlBehaviorOfSlider( sliderElements, event.target );
+        } );
     });
     
-    window.addEventListener( 'scroll', changeOpacitySlider )
+    window.addEventListener( 'scroll', changeOpacitySlider );
 }
 
 /**
@@ -38,7 +38,7 @@ const automaticControlSlider = ( sliderElements ) => {
 
 /**
  * 
- * @param { HTMLElement [] } sliders Lista de Sliders
+ * @param { HTMLElement [] } sliderElements Lista de Sliders
  * @param { HTMLElement } arrowClicked Flecha que recibio el click
  */
 const controlBehaviorOfSlider = ( sliderElements, arrowClicked = null ) => {
